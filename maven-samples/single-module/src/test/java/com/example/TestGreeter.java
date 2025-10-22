@@ -36,6 +36,11 @@ public class TestGreeter {
   }
 
     @Test
+  public void intentionally_failed() {
+    assertTrue(false);
+  }
+
+      @Test
   public void greetShouldIncludeGreetingMessage() {
     String someone = "World, Thanks you making me Happy";
 
